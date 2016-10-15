@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Menu from './components/Global/Menu.jsx';
 
 ReactDOM.render(
-  React.DOM.div(null, 'Hello World!'),
+  <Menu />,
   document.getElementById('app')
 );
