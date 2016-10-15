@@ -5,12 +5,12 @@ module.exports = {
 
   entry: {
     javascript: "./js/app.js",
+    css: "./styles.css",
     html: "./index.html",
   },
 
   output: {
     filename: "app.js",
-    path: __dirname + "/dist",
   },
 
   resolve: {
@@ -23,10 +23,14 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        loaders: ["babel-loader"]
+        loaders: ["babel-loader"],
       },
       {
         test: /\.html$/,
+        loader: "file?name=[name].[ext]",
+      },
+      {
+        test: /\.css$/,
         loader: "file?name=[name].[ext]",
       }
     ]

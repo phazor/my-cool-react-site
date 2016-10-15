@@ -7,9 +7,12 @@ export default class App extends Component {
 
     return (
       <div className='App'>
-        <Link to='/'>Home</Link>
-        <p className="separator"> | </p>
-        <Link to='/about'>About</Link>
+        <div className="Nav">
+          <ul>
+            <li><Link to='/'>Home</Link></li>
+            <li><Link to='/about'>About</Link></li>
+          </ul>
+        </div>
 
         { children }
       </div>
