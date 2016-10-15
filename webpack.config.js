@@ -25,11 +25,6 @@ module.exports = {
       {
         test: /\.html$/,
         loader: "file?name=[name].[ext]",
-      },
-      {
-        test: /\.jsx?$/,
-        exclude: /node_modules/,
-        loaders: ["react-hot", "babel-loader"],
       }
     ]
   }
