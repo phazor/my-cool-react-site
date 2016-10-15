@@ -38,3 +38,6 @@ jspm_packages
 
 # Dist directories
 dist
+
+# DS-Store
+.DS_Store
