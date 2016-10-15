@@ -1,0 +1,16 @@
+{
+  "name": "my-cool-react-site",
+  "version": "0.0.1",
+  "description": "A super hip and cool React site designed to play with current (2016) tools",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:phazor/my-cool-react-site.git",
+    "type": "git"
+  },
+  "author": "phazor <tristan.r.read@gmail.com>",
+  "license": "Unlicense",
+  "devDependencies": {
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
